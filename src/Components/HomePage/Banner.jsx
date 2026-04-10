@@ -2,7 +2,7 @@ import React from 'react';
 import bannerImg from '../../../src/assets/images/hero.png'
 const Banner = () => {
     return (
-        <div className='min-h-[80vh]  text-center space-y-10 py-12.5'>
+        <div className='min-h-[80vh]  text-center space-y-10 '>
 
             <h2 className="font-bold text-6xl">We Build <br /> <span className="text-purple-500">Productive</span> Apps</h2>
 
