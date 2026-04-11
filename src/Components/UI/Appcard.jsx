@@ -5,9 +5,9 @@ const Appcard = ({app}) => {
     return (
         <div>
 
-            <div className="card bg-base-100 max-w-96 shadow-sm">
+            <div className="card bg-base-100  shadow-sm">
                 <figure>
-                    <img
+                    <img className='h-50 w-auto rounded '
                         src={app.image}
                         alt={app.title} />
                 </figure>
