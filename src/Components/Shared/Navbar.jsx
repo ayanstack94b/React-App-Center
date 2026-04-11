@@ -10,7 +10,7 @@ const Navbar = () => {
             <nav className='shadow-md p-5 mb-5'>
                 <div className="flex justify-between gap-5 items-center bg-white  container mx-auto">
                     <img src={logo} className='w-10' alt="" />
-                    <ul className='flex justify-between gap-5 items-center'>
+                    <ul className='flex justify-between gap-5 items-center'> 
                         <li><NavLink to={'/'} className={({ isActive})=> `${isActive ? 'text-purple-500 border-b border-purple-500 font-semibold pb-2': ''}`}>Home</NavLink></li>
                         <li><NavLink to={'/apps'} className={({ isActive }) => `${isActive ? 'text-purple-500 border-b border-purple-500 font-semibold pb-2' : ''}`} >Apps</NavLink></li>
                         <li><NavLink to={'/installedApps'} className={({ isActive }) => `${isActive ? 'text-purple-500 border-b border-purple-500 font-semibold pb-2' : ''}`}>Installed</NavLink></li>

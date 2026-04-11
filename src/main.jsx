@@ -17,11 +17,12 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        Component: HomePage
+        Component: HomePage,
+        loader: ()=> fetch("/data.json")
       },
       {
         path: '/apps',
-        Component: Apps
+        Component: Apps,
       },
       {
         path: '/installedApps',
